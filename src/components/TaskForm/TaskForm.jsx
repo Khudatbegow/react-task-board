@@ -10,12 +10,12 @@ const TaskForm = () => {
       <Input type="text" placeholder="Enter your task" />
       <div className={styles.taskActions}>
         <div className={styles.taskFormButtons}>
-          <Button className={styles.taskFormButton} type="button">HTML</Button>
-          <Button className={styles.taskFormButton} type="button">CSS</Button>
-          <Button className={styles.taskFormButton} type="button">JavaScript</Button>
-          <Button className={styles.taskFormButton} type="button">React</Button>
+          <Button className={`${styles.taskFormButton} tagDefault`} type="button">HTML</Button>
+          <Button className={`${styles.taskFormButton} tagDefault`} type="button">CSS</Button>
+          <Button className={`${styles.taskFormButton} tagDefault`} type="button">JavaScript</Button>
+          <Button className={`${styles.taskFormButton} tagDefault`} type="button">React</Button>
         </div>
-        <div className="">
+        <div>
           <Select />
           <Button className={styles.submitButton} type="submit">+ Add Task</Button>
         </div>

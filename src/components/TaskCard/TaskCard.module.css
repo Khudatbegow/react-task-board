@@ -1,0 +1,44 @@
+.taskCard {
+    width: 100%;
+    min-height: 100px;
+    border: 1px solid #dcdcdc;
+    border-radius: 10px;
+    padding: 15px;
+    margin: 15px 0;
+}
+
+.taskTitle {
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 16px;
+}
+
+.taskCardButtons {
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+}
+
+.taskCardFooter {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.deleteButton {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    border: none;
+    background: none;
+    transition: all 0.3s ease-in-out;
+    font-size: 20px;
+}
+
+.deleteButton:hover {
+    background-color: #ebebeb;
+}
