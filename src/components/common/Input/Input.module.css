@@ -10,3 +10,7 @@
     outline: none;
     width: 100%;
 }
+
+.taskInput::placeholder {
+    color: #686868;
+}

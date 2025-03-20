@@ -8,15 +8,17 @@ const TaskForm = () => {
   return (
     <form className={styles.form} action="#">
       <Input type="text" placeholder="Enter your task" />
-      <div className={styles.taskFormButtons}>
-        <Button type="button">HTML</Button>
-        <Button type="button">CSS</Button>
-        <Button type="button">JavaScript</Button>
-        <Button type="button">React</Button>
-      </div>
-      <div className="">
-        <Select />
-        <Button type="submit">+ Add Task</Button>
+      <div className={styles.taskActions}>
+        <div className={styles.taskFormButtons}>
+          <Button className={styles.taskFormButton} type="button">HTML</Button>
+          <Button className={styles.taskFormButton} type="button">CSS</Button>
+          <Button className={styles.taskFormButton} type="button">JavaScript</Button>
+          <Button className={styles.taskFormButton} type="button">React</Button>
+        </div>
+        <div className="">
+          <Select />
+          <Button className={styles.submitButton} type="submit">+ Add Task</Button>
+        </div>
       </div>
     </form>
   );
